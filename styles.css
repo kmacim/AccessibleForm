@@ -212,7 +212,7 @@ input:focus, select:focus, textarea:focus{
 	box-shadow: 0 0 0 0.09em currentColor;
 }
 
-input:error, select:error, textarea:error{
+input:invalid, select:invalid, textarea:invalid{
 	background-color: #c71819;
 }
 
@@ -228,6 +228,7 @@ fieldset{
 
 legend{
 	padding: 0.5em;
+	text-align: center;
 }
 
 fieldset label{
